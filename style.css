@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background: #222;
-    background-image: url("https://media.istockphoto.com/id/1303391856/photo/driving-on-idyllic-roads.jpg?s=1024x1024&w=is&k=20&c=GTQz2v3_IECV57o42GRNRaFswoWvRPwmS51yMqKArFE=");
+    background-image: url("https://images.unsplash.com/photo-1598271313575-f0ccfdddea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
     font-family: 'Open Sans', sans-serif;
     font-size: 120%;
 }
@@ -83,4 +83,5 @@ h1.temp {
     color: white;
     position: absolute;
     top: 0;
+    left: 20px;
 }
