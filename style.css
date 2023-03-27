@@ -85,3 +85,8 @@ h1.temp {
     top: 0;
     left: 20px;
 }
+
+   #date-time {
+       font-style: normal;
+       font-size: 12px
+   }

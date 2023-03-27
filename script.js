@@ -29,15 +29,29 @@ let weather = {
         // The classList.remove() will remove the given element IF IT IS THERE, and leave it alone if it is not there.
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
 
-    },
+    
+        let now = new Date();
+
+        let options = { 
+      month: 'short', 
+      day: 'numeric', 
+      hour: 'numeric', 
+      minute: 'numeric', 
+      hour12: true 
+        };
+        
+        let dateTimeString = now.toLocaleString('en-US', options);
+        
+        let dateTimeElement = document.getElementById("date-time");
+    dateTimeElement.innerHTML = dateTimeString;
+},
     // ^ This comma separates codes of block that are within a main code block. You MUST use a comma to separate the blocks.
+
     search: function () {
         this.fetchWeather(document.querySelector(".search-bar").value);
     }
     // ^This block of code, when hit, directs its attention to what's in the search bar and searches it. ^
 };
-
-
 
     document.querySelector(".search button").addEventListener("click", function () {
         weather.search();
@@ -55,3 +69,5 @@ let weather = {
 weather.fetchWeather("Denver")
     // ^ Makes it so the app doesn't see our raw numbers. It'll load up with accurate information on a given area until the search. This action is called when the app starts.
 
+
+    
