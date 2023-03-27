@@ -24,7 +24,7 @@ let weather = {
         // ^ .innerText changes/publishes the text on the screen.
         document.querySelector(".temp").innerText = temp + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
-        document.querySelector(".wind").innerText = "Wind speed: " + speed + "km/h";
+        document.querySelector(".wind").innerText = "Wind speed: " + speed + " mph";
         document.querySelector(".weather").classList.remove("loading");
         // The classList.remove() will remove the given element IF IT IS THERE, and leave it alone if it is not there.
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";

@@ -60,6 +60,20 @@ h1.temp {
     margin-bottom: 0.4em;
 }
 
+h2 {;
+}
+
+.humidity {
+padding-bottom: .2em
+}
+
+.icon {
+    padding-bottom: 0.5em;
+}
+
+.wind {
+}
+
 
 .flex {
     display: flex;
