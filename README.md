@@ -1,2 +1,3 @@
-# Weather-App
-Weather app project.
+# Weather App Desktop (Tutorial)
+
+Follow-along weather app project.
